@@ -1,0 +1,366 @@
+
+body{
+  background-color: #002e4609;
+}
+
+.nav__ {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #002D46;
+}
+
+.correo, .telefono, .iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correo p, .telefono p {
+  text-align: center;
+  margin: auto;
+  color: #002D46;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+}
+
+.iconos img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 15px;
+}
+
+/* NAV */
+
+.nav-item {
+margin: 0 1rem; 
+}
+
+.nav-link {
+color: #003857;
+font-family: League Spartan;
+font-size: 1.25rem; 
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.logo__img {
+width: 15.625rem; 
+height: 5rem; 
+}
+
+.contact__btn {
+border-radius: 0.625rem; 
+background: #4185D1;
+box-shadow: -0.0625rem 0.5rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.32);
+color: #FFF;
+font-family: League Spartan;
+font-size: 1.25rem; 
+font-weight: 400;
+text-transform: uppercase;
+}
+
+
+/* FOOTER */
+
+.redes__ img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 15px;
+}
+
+.titulo__footer {
+  color: #4185D1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.descripcion__footer {
+  color: #000000;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.correo__footer {
+  position: relative;
+  display: inline-block;
+}
+
+.correo__footer input {
+  border-radius: 37px;
+  background: #bbbbbb58;
+  border: none;
+  color: #002D46;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 50px;
+  width: 100%;
+  min-width: 470px; /*dar estilo de responisve*/
+}
+
+.correo__footer button {
+  border-radius: 37px;
+  background: #4185D1;
+  border: none;
+  color: #FFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 50px;
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.enlaces__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enlaces__footer a {
+  text-align: center;
+  margin: auto;
+  color: #002D46;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.page__footer {
+  display: flex;
+}
+
+
+
+/* ENCABEZADO DE CONTACTO */
+.contenedor__nav{
+  background-image: url("../img/contactenos-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative;
+ 
+}
+
+.contenedor__titulo{
+  position: absolute;
+  left: 5%;
+  top: 40%;
+
+  color: #FFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+ 
+}
+
+/* ENCABEZADO DE SERVICIOS */
+.serv__nav{
+  background-image: url("./11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.serv__titulo{
+  position: absolute;
+  left: 5%;
+  top: 40%;
+
+  color: #FFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+ 
+}
+
+/*  contactanos */
+.card {
+  border: none;
+  background-color: red;
+}
+
+
+
+.contenedor__hijo {
+  border: 1px solid #000;
+}
+
+.contenedor__img-texto{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+
+.footer__{
+  
+  /* filter: drop-shadow(13px -6px 39px #002D46); */
+  border-top: 4px solid #002D46;
+}
+
+
+
+.contact__buscar{
+  border-radius: 37px;
+  background: #4185D1;
+  border: none;
+  color: #FFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 50px;
+  width: auto;
+
+}
+.nav__contact{
+  margin-top: 120px !important;
+  margin-bottom: 120px !important;
+
+}
+.nav__contact__{
+  margin-top: 120px !important;
+  margin-bottom: 120px !important;
+  position: relative;
+  height: 700px !important;
+}
+
+.contact__input{
+  
+  border-radius: 20px;
+  background: #FFFEFE;
+  box-shadow: 7px 11px 17px 11px rgba(0, 0, 0, 0.48);
+  display: block;
+  /* margin-top: 60px; */
+
+  max-height: 650px;
+  max-width: 700px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 40px;
+
+}
+
+/* .content__contenido_padre{
+  position: relative;
+  background-color: blueviolet;
+} */
+
+.content__contenido{
+  /* background-color: red; */
+  position:absolute;
+  bottom: 80px;
+  color: white;
+  font-weight: 800;
+}
+
+
+/* imagen */
+.contact__imagen{
+  height: 100%;
+  position: absolute;
+  left:40px;
+  top: 0px;
+
+  background-image: url("../img/contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.91;
+
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.54) 0%, rgba(0, 0, 0, 0.54) 100%), url(<path-to-image>), lightgray -539.231px 3.303px / 315.219% 101.435% no-repeat; */
+
+box-shadow: 8px 20px 20px 0px #000;
+
+border-radius: 5px;
+
+}
+
+
+
+.card__img {
+  background-color: rgba(0, 0, 0, 0.8); 
+  /* width: auto; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.54) 0%, rgba(0, 0, 0, 0.54) 100%), url(<path-to-image>), lightgray -539.231px 3.303px / 315.219% 101.435% no-repeat;
+ box-shadow: 8px 12px 12px 0px #000;
+  filter: brightness(80%) contrast(1.2);
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.contact__titulo{
+  color: #333;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 30px;
+ 
+}
+
+strong{
+  color: #2E6098;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.form-control{
+  border-radius: 50px !important;
+  border: none;
+  background-color: #002e4616;
+  padding: 20px !important;
+}
+
+textarea {
+  max-width: auto;
+  max-height: 200px;
+  resize: none;
+}
