@@ -184,6 +184,135 @@ text-transform: uppercase;
  
 }
 
+/* CURSOS */
+
+.container__cursos-imagen {
+  background-color: #ECECEC;
+  border-radius: 5%;
+  padding: 70px;
+}
+
+.container__cursos-imagen img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.container__cursos-imagen-informacion {
+  background-color: #E2E2E2;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.container__1 {
+  background-color: #204269;
+  padding: 20px;
+  border-radius: 30px 30px 0 0;
+}
+
+.container__1 p {
+  color: #fff;
+}
+
+.container__2 {
+  background-color: #E2E2E2;
+  height: auto;
+  padding: 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+.container__1 p,
+.container__2 p,
+.card__titulo {
+  text-transform: uppercase;
+}
+
+.card__titulo {
+  font-weight: bold;
+}
+
+.container__cursos-texto {
+  padding: 50px;
+}
+
+.card__contenedor_imagen {
+  position: relative;
+  display: inline-block;
+}
+
+.card__imagen {
+  border-radius: 30px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.capa-negra {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+.card-body {
+  background-color: #002e4609;
+}
+
+.boton {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.boton img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.container__paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.boton__circular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 100%;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.paginacion__izquierda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  transform: rotate(180deg);
+  text-align: center !important;
+}
+
+.paginacion__derecha {
+  width: 32px;
+  height: 32px;
+}
+
+
 /* ENCABEZADO DE SERVICIOS */
 .serv__nav{
   background-image: url("./11.jpg");
@@ -209,10 +338,75 @@ text-transform: uppercase;
  
 }
 
+.container__evento-imagen img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.container__horario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  width: 50px;
+  height: 50px;
+  background-color: #0066FF;
+  margin: 0 10px;
+  color: #fff;
+  border-radius: 10px;
+  padding:5px;
+}
+
+.caja p{
+  font-size: 0.80rem;
+  font-weight: bold;
+}
+
+.container__evento-informacion,
+.container__evento-fecha-hora,
+.container__servicio-informacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__servicio-informacion_hijo,
+.container__evento-fecha-hora_hijo,
+.container__evento-informacion_hijo {
+  display: block;
+}
+
+.container__evento-fecha-hora_hijo h4 {
+  color: #0066FF;
+  font-weight: bold;
+}
+
+.container__servicio-imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__servicio-imagen img {
+  width: 400px !important;
+  height: 400px !important;
+  border-radius: 20px;
+}
+
+.boton__contactanos {
+  border-radius: 30px;
+}
+
+.container__servicio-informacion_hijo h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /*  contactanos */
 .card {
   border: none;
-  background-color: red;
 }
 
 

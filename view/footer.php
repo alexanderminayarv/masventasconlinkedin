@@ -8,11 +8,11 @@
         <div class="col-12 col-md-3 text-center">
             <img class="logo__img" src="<?php echo URL?>assets/img/logo.png" alt="">
             <div class="redes__ mt-4 d-flex justify-content-center">
-                <img src="./facebook.png" alt="">
-                <img src="./linkedin.png" alt="">
-                <img src="./youtube.png" alt="">
-                <img src="./instagram.png" alt="">
-                <img src="./tik-tok.png" alt="">
+                <img src="<?php echo URL?>assets/img/facebook.png" alt="">
+                <img src="<?php echo URL?>assets/img/linkedin.png" alt="">
+                <img src="<?php echo URL?>assets/img/youtube.png" alt="">
+                <img src="<?php echo URL?>assets/img/instagram.png" alt="">
+                <img src="<?php echo URL?>assets/img/tik-tok.png" alt="">
             </div>
         </div>
         <div class="col-12 col-md-3 page__footer">

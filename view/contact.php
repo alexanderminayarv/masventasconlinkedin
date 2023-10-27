@@ -1,6 +1,6 @@
 <!-- ENCABEZADO DE CONTACTO -->
 
-<div class="container-fluid my-sm-2 my-md-5 ">
+<div class="container-fluid mb-sm-2 mb-md-5 ">
     <div class="row">
         <div class="col-12 col-sm contenedor__nav">
             <h1 class="contenedor__titulo">contáctanos</h1>
