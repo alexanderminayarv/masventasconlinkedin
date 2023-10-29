@@ -157,6 +157,55 @@ text-transform: uppercase;
 }
 
 
+/* INDEX */
+
+.container__logos {
+  position: relative;
+  display: inline-block;
+}
+
+.container__logos img {
+  width: 250px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.container__logos:hover img {
+  filter: grayscale(0%);
+}
+
+.container__linkedin img {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.container__linkedin h3 {
+  margin-bottom: 30px;
+}
+
+.container__autor,
+.container__testimonio {
+  background: linear-gradient(to top, #4386D1, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__autor img {
+  width: 100%;
+  border-radius: 10%;
+  padding: 50px;
+}
+
+.container__testimonio {
+  padding: 100px 220px;
+}
+
+.container__testimonio img {
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+}
 
 /* ENCABEZADO DE CONTACTO */
 .contenedor__nav{
@@ -166,7 +215,6 @@ text-transform: uppercase;
   width: 100%;
   height: 400px;
   position: relative;
- 
 }
 
 .contenedor__titulo{
@@ -269,6 +317,10 @@ text-transform: uppercase;
   border-radius: 30px;
 }
 
+.boton:hover img {
+  content: url('../img/iconos/carro-de-la-carretilla.png');
+}
+
 .boton img {
   width: 16px;
   height: 16px;
@@ -311,6 +363,26 @@ text-transform: uppercase;
   width: 32px;
   height: 32px;
 }
+
+.lista {
+  list-style: none; 
+  padding: 0;
+}
+
+.lista li {
+  margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+}
+
+.lista li img {
+  width: 24px; 
+  height: auto;
+  margin-right: 10px; 
+}
+
+
+
 
 
 /* ENCABEZADO DE SERVICIOS */

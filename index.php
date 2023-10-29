@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="<?php echo URL?>assets/css/style.css">
 
 
+
+
 </head>
 
 
@@ -42,9 +44,10 @@
 
     ?>
 
+
     <!-- JavaScript Libraries -->
     <script src="<?php echo URL?>assets/js/bootstrap/bootstrap.bundle.min.js"></script>
- 
+
 
 </body>
 

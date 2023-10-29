@@ -4,8 +4,6 @@
     <div class="row">
         <div class="col-12 col-sm contenedor__nav">
             <h1 class="contenedor__titulo">cursos</h1>
-            <!-- <img src="./contactenos-1.jpg" alt="" 
-            style="width: 100%; height: 500px; object-fit: cover;"> -->
         </div>
     </div>
 </div>
@@ -28,27 +26,23 @@
             </div>
         </div>
         <div class="col-sm-12 col-md-7 col-lg-7 container__cursos-texto">
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
-            <p><b>Mi plan paso a paso </b> diseñado para aumentar el conocimiento de tu marca y generar clientes
-                potenciales sin
-                enviar un solo mensaje a nadie en LinkedIn. Atrae a los clientes a tu perfil, no al revés.</p>
+           <ul class="lista">
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+
+            <li><img src="<?php echo URL?>assets/img/iconos/comprobado.png" alt="Icono 1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, accusantium? Officia velit, reprehenderit doloribus placeat ipsam at, ab adipisci commodi numquam fuga quis modi ratione. Cupiditate earum error ipsa ratione.</li>
+           </ul>
         </div>
     </div>
 
@@ -64,8 +58,8 @@
                     <h5 class="card__titulo">Aplicar el open to work</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                    <a href="#" class="btn btn-primary boton">
-                        <img src="<?php echo URL?>assets/img/iconos/carro-de-la-carretilla.png"> Comprar
+                    <a href="#" class="btn btn-outline-primary boton">
+                        <img src="<?php echo URL?>assets/img/iconos/carrito-de-compras.png"> Comprar
                     </a>
                 </div>
             </div>
@@ -81,8 +75,8 @@
                     <h5 class="card__titulo">Aprende a crecer tú y tu empresa</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                    <a href="#" class="btn btn-primary boton">
-                        <img src="<?php echo URL?>assets/img/iconos/carro-de-la-carretilla.png"> Comprar
+                    <a href="#" class="btn btn-outline-primary boton">
+                        <img src="<?php echo URL?>assets/img/iconos/carrito-de-compras.png"> Comprar
                     </a>
                 </div>
             </div>
@@ -98,8 +92,8 @@
                     <h5 class="card__titulo">Aprende a vender manera exitosa</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                    <a href="#" class="btn btn-primary boton">
-                        <img src="<?php echo URL?>assets/img/iconos/carro-de-la-carretilla.png"> Comprar
+                    <a href="#" class="btn btn-outline-primary boton">
+                        <img src="<?php echo URL?>assets/img/iconos/carrito-de-compras.png"> Comprar
                     </a>
                 </div>
             </div>
@@ -118,8 +112,8 @@
                     <h5 class="card__titulo">Aplicar el open to work</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                    <a href="#" class="btn btn-primary boton">
-                        <img src="<?php echo URL?>assets/img/iconos/carro-de-la-carretilla.png"> Comprar
+                    <a href="#" class="btn btn-outline-primary boton">
+                        <img src="<?php echo URL?>assets/img/iconos/carrito-de-compras.png"> Comprar
                     </a>
                 </div>
             </div>
@@ -135,8 +129,8 @@
                     <h5 class="card__titulo">Aprende a crecer tú y tu empresa</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                    <a href="#" class="btn btn-primary boton">
-                        <img src="<?php echo URL?>assets/img/iconos/carro-de-la-carretilla.png"> Comprar
+                    <a href="#" class="btn btn-outline-primary boton">
+                        <img src="<?php echo URL?>assets/img/iconos/carrito-de-compras.png"> Comprar
                     </a>
                 </div>
             </div>
@@ -152,8 +146,8 @@
                     <h5 class="card__titulo">Aprende a vender manera exitosa</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
-                    <a href="#" class="btn btn-primary boton">
-                        <img src="<?php echo URL?>assets/img/iconos/carro-de-la-carretilla.png"> Comprar
+                    <a href="#" class="btn btn-outline-primary boton">
+                        <img src="<?php echo URL?>assets/img/iconos/carrito-de-compras.png"> Comprar
                     </a>
                 </div>
             </div>
@@ -170,5 +164,3 @@
                 class="paginacion__derecha"></button>
     </div>
 </div>
-
-
