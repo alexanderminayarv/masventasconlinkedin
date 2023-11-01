@@ -17,7 +17,8 @@
     <link href="<?php echo URL?>images/favicon.ico" rel="icon"> -->
     <link rel="stylesheet" href="<?php echo URL?>assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo URL?>assets/css/style.css">
-
+    <link rel="stylesheet" href="<?php echo URL?>assets/css/sweetalert2.css">
+    <link rel="stylesheet" href="<?php echo URL?>assets/css/animacion/aos.css">
 
 </head>
 
@@ -41,11 +42,18 @@
      }
 
     ?>
-
+    <script src="<?php echo URL?>assets/js/sweetalert2.js"></script>
+    <script src="<?php echo URL?>assets/js/formulario.js"></script>
     <!-- JavaScript Libraries -->
     <script src="<?php echo URL?>assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo URL?>assets/js/animacion/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
  
-
+    <script>
+        const url_est = "<?php echo URL?>";
+    </script>
 </body>
 
 </html>
